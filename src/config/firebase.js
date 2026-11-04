@@ -7,12 +7,12 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // (Configurações do projeto > Seus apps > Configuração do SDK).
 // Essas chaves não são secretas: quem protege os dados são as regras do Firestore.
 const firebaseConfig = {
-  apiKey: 'COLE_AQUI',
-  authDomain: 'COLE_AQUI',
-  projectId: 'COLE_AQUI',
-  storageBucket: 'COLE_AQUI',
-  messagingSenderId: 'COLE_AQUI',
-  appId: 'COLE_AQUI',
+  apiKey: 'AIzaSyCm0i5fHQ44-8CDCLKxJatdtVX187r9hXo',
+  authDomain: 'prazo-cp3.firebaseapp.com',
+  projectId: 'prazo-cp3',
+  storageBucket: 'prazo-cp3.firebasestorage.app',
+  messagingSenderId: '43349931278',
+  appId: '1:43349931278:web:cb9fea52750d7859acd35f',
 };
 
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
